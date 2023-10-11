@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+  <title>JavaScript. Браузерное окружение. Работа c DOM</title>
+</head>
+<body>
+  <h1>My page</h1>
+  <button id="btn">Click</button>
+  <ul>
+    <li>Этот</li>
+    <li>тест</li>
+  </ul>
+  <ul>
+    <li>полностью</li>
+    <li>пройден</li>
+  </ul>
+  <script>
+    let elem = document.getElementById('btn');
+
+    elem.style.background = "red"
+
+    let elements = document.querySelectorAll('ul > li:last-child');
+
+    for (let elem of elements) {
+      console.log(elem.innerHTML); // "тест", "пройден"
+    }  
+  </script>
+
+  <!-- <script>
+  // глобальная переменная с именем, указанным в id:
+ btn.style.background = "red"
+  </script> -->
+</body>
+
+</html>

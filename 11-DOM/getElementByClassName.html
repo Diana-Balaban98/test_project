@@ -1,0 +1,32 @@
+<html>
+  <head></head>
+  <body>
+    <div id="title">
+      <h1>Привет, незнакомец!</h1>
+      <div class="paragraph subtitle">Div с классом paragraph и subtitle</div>
+    </div>
+    <p class="paragraph">Параграф с классом paragraph</p>
+    <script>
+      const paragraphs = document.getElementsByClassName('paragraph')
+      console.log(paragraphs.length)
+      // напечатает 2
+
+      const divEl = document.getElementById('title')
+      // ищем параграфы внутри div:
+      const paragraphsFromDiv = divEl.getElementsByClassName('paragraph')
+      console.log(paragraphsFromDiv.length)
+      // напечатает 1, так как внутри div только один элемент с классом paragraph
+
+      const subtitleParagraphs = document.getElementsByClassName(
+        'paragraph subtitle'
+      )
+      console.log(subtitleParagraphs.length)
+      // напечатает 1, так как на странице только один элемент,
+      // у которого есть и класс paragraph, и класс subtitle
+
+      // ищем несуществующий элемент
+      const spanFromBody = document.getElementsByClassName('hello')
+      console.log(spanFromBody.length) // напечатает 0
+    </script>
+  </body>
+</html>

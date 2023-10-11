@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  <body>
+    <div id="title">
+      <h1>Привет, незнакомец!</h1>
+      <p>Это параграф дочерний и для div, и для body</p>
+    </div>
+    <p>Это параграф, дочерний для body</p>
+    <script>
+      const pFromBody = document.getElementsByTagName('p')
+      console.log(pFromBody.length)
+      // напечатает 2
+
+      const divEl = document.getElementById('title')
+      // ищем параграфы внутри div:
+      const pFromDiv = divEl.getElementsByTagName('p')
+      console.log(pFromDiv.length)
+      // напечатает 1, так как внутри div только один p
+
+      // ищем несуществующий элемент
+      const spanFromBody = document.getElementsByTagName('span')
+      console.log(spanFromBody.length)
+      // напечатает 0
+    </script>
+  </body>
+</html>
