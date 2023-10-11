@@ -17,7 +17,7 @@ alert(myNumber)
 // Переменную с const нельзя изменять.
 const yourNumber = 5;
 yourNumber = 6;
-console.log(yourNumber); // будет ошибка
+console.log(String(yourNumber)); // будет ошибка
 
 // По этой же логике константу нельзя создавать пустой.
 const age;
