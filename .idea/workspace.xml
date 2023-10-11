@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91044605-1e24-4dc5-b331-17a6bcd0ad6a" name="Changes" comment="add alert">
+    <list default="true" id="91044605-1e24-4dc5-b331-17a6bcd0ad6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +15,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat_create" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -53,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat__create",
-    "last_opened_file_path": "/Users/zhenyaluzhanski/Documents/IT-INCUBATOR/test_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat__create&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhenyaluzhanski/Documents/IT-INCUBATOR/test_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +80,10 @@
       <workItem from="1686471915310" duration="223000" />
       <workItem from="1687077921517" duration="408000" />
       <workItem from="1697031420087" duration="50000" />
-      <workItem from="1697031836122" duration="998000" />
+      <workItem from="1697031836122" duration="2185000" />
+      <workItem from="1697034257440" duration="194000" />
+      <workItem from="1697034455658" duration="77000" />
+      <workItem from="1697034535984" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="add alert">
       <created>1697032081804</created>
@@ -88,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697032081804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add boxing">
+      <created>1697033323640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033323640</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add change name to the object">
+      <created>1697033390017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033390017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="add alert" />
+    <MESSAGE value="add boxing" />
+    <MESSAGE value="add change name to the object" />
+    <option name="LAST_COMMIT_MESSAGE" value="add change name to the object" />
   </component>
 </project>
