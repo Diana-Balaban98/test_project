@@ -32,7 +32,7 @@ console.log(abc); // значение будет undefined
 const user = { name: 'Pavel', age: 25 };
 user = { name: 'Alex', age: 28 }; // TypeError: Assignment to constant variable.
 user.age = 26; // это допустимо
-
+user.name = 'Diana'
 //                                           Отличия let и var
 // Переменную с var можно объявлять повторно с таким же именем
 var num = 10;
