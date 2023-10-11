@@ -12,6 +12,7 @@
 // // используя конструктор Array():
 const fruitsArray = new Array(7);
 console.log(fruitsArray);
+alert(fruitsArray)
 
 
 // Длина массива
