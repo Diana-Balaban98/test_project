@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91044605-1e24-4dc5-b331-17a6bcd0ad6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monday/01/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monday/02/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monday/03/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monday/03/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monday/04/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuesday/05/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +15,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1697031598" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1697031597" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2R3Hb2zlvJ0SoT3DncfGjlP3dUF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,6 +74,7 @@
       <workItem from="1686471915310" duration="223000" />
       <workItem from="1687077921517" duration="408000" />
       <workItem from="1697031420087" duration="50000" />
+      <workItem from="1697031480113" duration="960000" />
     </task>
     <servers />
   </component>

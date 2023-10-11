@@ -10,7 +10,7 @@
 // используя квадратные скобки:
 // const usersArray = [];
 // // используя конструктор Array():
-const fruitsArray = new Array(7);
+let fruitsArray = new Array(7);
 console.log(fruitsArray);
 
 
