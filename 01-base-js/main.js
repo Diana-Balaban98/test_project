@@ -12,6 +12,7 @@
 let myNumber = 5;
 myNumber = 6;
 console.log(myNumber); // значение переменной num изменится
+alert(myNumber)
 
 // Переменную с const нельзя изменять.
 const yourNumber = 5;
